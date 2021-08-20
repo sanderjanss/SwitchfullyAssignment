@@ -1,0 +1,260 @@
+/*************************************/
+/* CONTENT TABLE */
+/*************************************/
+/* 01 BASIC */
+/* 02 COMPONENTS */
+/* 03 HEADER */
+/* 04 NAVIGATION */
+/* 05 SECTION: HERO  */
+/* 06 SECTION: ABOUT */
+/* 06 ARTICLE */
+/* 08 FOOTER */
+/*************************************/
+
+
+/*************************************/
+/* 01 Basic */
+/*************************************/
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+
+}
+
+/*************************************/
+/* 02 REPEATABLE COMPONENTS */
+/*************************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 4.2rem 3.2rem;
+}
+.container-in {
+  padding: 0 9.2rem;
+
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary{
+  font-size: 5.2rem;
+  line-height: 1;
+  margin-bottom: 3.2rem;
+
+}
+
+.heading-secondary{
+  font-size: 4.4rem;
+  line-height:1;
+}
+
+.heading-tertiary{
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+
+}
+
+.btn:link, .btn:visited{
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  background-color: #006d87;
+  color: #fff;
+  border-radius: 1.4rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active{
+  background-color: #005f76;
+}
+
+.box{
+  display:flex;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 9.6rem;
+}
+.img-box{
+  display:flex;
+}
+
+.img-box img{
+  height: 16.2rem;
+  width: 16.2rem;
+  border-radius: 50%;
+  border: 5px solid #a3b9be;
+  margin-right: -1.6rem;
+
+}
+
+.description-box{
+  font-size: 1.8rem;
+  line-height:3rem;
+}
+
+.icon{
+  height: 6rem;
+  width: 6rem;
+  color: #006d87;
+  padding-bottom: 1.6rem;
+
+}
+
+/*************************************/
+/* 03 HEADER */
+/*************************************/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4.8rem;
+  background-color: #24252A;
+
+}
+
+/*************************************/
+/* 04 NAVIGATION */
+/*************************************/
+
+.header-links {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.header-link:link,
+.header-link:visited,
+.logo{
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.logo{
+  color:#66b8cb;
+}
+
+.header-link:hover,
+.header-link:active {
+  color: #0088a9;
+}
+
+.sticky-nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+}
+
+/*************************************/
+/* 05 SECTION: HERO */
+/*************************************/
+
+
+.section-hero{
+  background-color: #cce7ee;
+  padding: 9.6rem 0;
+}
+
+.hero{
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.img {
+  width: 100%
+}
+
+.hero-description{
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+/*************************************/
+/* 06 SECTION: ABOUT */
+/*************************************/
+
+.section-about{
+  padding: 9.6rem 0;
+  background-color: #dbeef3;
+}
+
+
+/*************************************/
+/* 07 ARTICLE */
+/*************************************/
+
+.article{
+  background-color: #dbeef3;
+  padding: 4.5rem 0;
+}
+
+/*************************************/
+/* 08 FOOTER */
+/*************************************/
+.footer{
+  padding: 30px 10%;
+  background-color: #24252A;
+}
+
+.grid {
+    display:grid;
+
+}
+
+.grid--3-cols{
+  grid-template-columns: repeat(3, 1fr)
+
+}
+
+.footer-link:link,
+.footer-link:visited,
+.footer-logo{
+
+  line-height:3rem;
+  font-size: 1.2rem;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-link:hover,
+.footer-link:active{
+  color: #0088a9;
+}
+
+.footer-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/***********************************************************/
